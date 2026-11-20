@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:6A00FF,100:00C8FF&height=180&section=header&text=CONTACT%20RELAY%20BOT&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developed%20By%20Mohammed&descAlignY=60&descSize=16" width="100%">
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7F1&width=435&lines=Welcome+To+Contact+Relay+Bot;Direct+Two-Way+Owner+Messaging;ForceSub+%26+MongoDB+Persistent+Relay;Bot+is+Made+By+Mohammed)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7F1&width=435&lines=Welcome+To+Contact+Relay+Bot;Direct+Two-Way+Owner+Messaging+Relay;Bot+is+Made+By+Mohammed)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://github.com/MohammedDev-yt"><img src="https://img.shields.io/github/stars/MohammedDev-yt/Contact-Relay-Bot?style=for-the-badge&logo=github&color=f43f8e&logoColor=white" alt="Stars"/></a>
@@ -96,24 +96,25 @@ Contact-Relay-Bot/
 
 # Example Environment Configuration
 
-`API_ID` =12345678
-`API_HASH` =your_api_hash_here
-`BOT_TOKEN` =your_bot_token_here
-`OWNER_ID` =123456789
-`MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
-`START_IMAGE_URL`=
-`BOT_NAME`=Aero Contact Relay
-`BOT_VERSION`=v3.3
-`UPDATES_CHANNEL_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
-`REPO_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
-`DEPLOY_STATUS_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
-`PORT`=8080
+```
+API_ID = 12345678
+API_HASH = your_api_hash_here
+BOT_TOKEN =your_bot_token_here
+OWNER_ID = 123456789
+MONGO_URI = mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
+START_IMAGE_URL =
+BOT_NAME = Aero Contact Relay
+BOT_VERSION = v3.3
+UPDATES_CHANNEL_URL = https://t.me/Aero_Unity
+REPO_URL = https://t.me/Aero_Unity
+DEPLOY_STATUS_URL = https://t.me/Aero_Unity
+PORT = 8080
+```
 
-
-</details>
-​🚀 <summary><b>DEPLOYMENT GUIDE</summary></b>
+<summary>Deployment Guide</summary></b>
 
 ​1. Deploy on Render
+
 <p align="left">
 <a href="https://render.com/">
 <img src="https://img.shields.io/badge/🚀%20Deploy%20on%20Render-6A00FF?style=for-the-badge&logo=render">
@@ -121,19 +122,17 @@ Contact-Relay-Bot/
 </p>
 
 ​2. Deploy via Docker
+
 <p align="left">
 <img src="https://img.shields.io/badge/🚀%20Deploy%20via%20Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </p>
 
-Build and run the container locally or on a server using Docker:
-
-
-Build docker image
+> Build docker image
 
 `docker build -t contact-relay-bot`
 
 
-Run container with environment variables
+> Run container with environment variables
 
 `docker run -d \
   -e API_ID="12345678" \
@@ -145,6 +144,7 @@ Run container with environment variables
   --name contact-relay-bot contact-relay-bot`
 
 ​3. Deploy on VPS / Local Machine
+
 <p align="left">
 <img src="https://img.shields.io/badge/🚀%20Deploy%20on%20VPS/Local-00599C?style=for-the-badge&logo=linux&logoColor=white">
 </p>
@@ -154,34 +154,31 @@ Run container with environment variables
 `git clone [https://github.com/MohammedDev-yt/Contact-Relay-Bot.git](https://github.com/MohammedDev-yt/Contact-Relay-Bot.git)
 cd Contact-Relay-Bot`
 
-# Create virtual environment
+> Create virtual environment
 
 `python3 -m venv venv source venv/bin/activate`
 
-# Install requirements
+> Install requirements
 
 `pip install -r requirements.txt`
 
-# Run bot
+> Run bot
 
 `python bot.py`
 
 </details>
 
-​[!NOTE] 
-​⚠️ Never publish your actual BOT_TOKEN, API_HASH, or MONGO_URI on GitHub.
+​[!NOTE] ​⚠️ Never publish your actual BOT_TOKEN, API_HASH, or MONGO_URI on GitHub.
 
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-​[!CAUTION] 
-​Never share your BOT_TOKEN.
+​[!CAUTION] ​Never share your BOT_TOKEN.
 ​Keep your API_HASH, OWNER_ID, and MONGO_URI private.
 ​Use environment variables for all sensitive credentials.
 
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-​[!WARNING] 
-DON'T REMOVE MY CREDIT...
+​[!WARNING] DON'T REMOVE MY CREDIT...
 ​Developer: @Mr_Mohammed_29
 ​Updates: @Aero_Unity
 ​Support: @Coders_Grp
