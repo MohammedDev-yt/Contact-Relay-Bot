@@ -72,11 +72,12 @@ Contact-Relay-Bot/
 ```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ​<details>
 ​<summary><b>Click Here To Expand Variables</b></summary>
 
-```
-Variable Description
+
+Variable.       |    Description
 `API_ID` Telegram API ID from my.telegram.org
 `API_HASH` Telegram API Hash from my.telegram.org
 `BOT_TOKEN` Telegram Bot Token from @BotFather
@@ -93,7 +94,7 @@ Variable Description
 
 # Example Environment Configuration
 
-```
+
 `API_ID` =12345678
 `API_HASH` =your_api_hash_here
 `BOT_TOKEN` =your_bot_token_here
@@ -106,36 +107,41 @@ Variable Description
 `REPO_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
 `DEPLOY_STATUS_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
 `PORT`=8080
-```
+
 
 </details>
 ​🚀 <summary><b>DEPLOYMENT GUIDE</summary></b>
+
 ​1. Deploy on Render
 <p align="left">
 <a href="https://render.com/">
 <img src="https://img.shields.io/badge/🚀%20Deploy%20on%20Render-6A00FF?style=for-the-badge&logo=render">
 </a>
 </p>
+
 ​2. Deploy via Docker
 <p align="left">
 <img src="https://img.shields.io/badge/🚀%20Deploy%20via%20Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </p>
 
-##Build and run the container locally or on a server using Docker:
+# Build and run the container locally or on a server using Docker:
 
 # Build docker image
-```docker build -t contact-relay-bot .```
+`
+docker build -t contact-relay-bot
+`
 
 # Run container with environment variables
-```docker run -d \
+`
+docker run -d \
   -e API_ID="12345678" \
   -e API_HASH="your_api_hash" \
   -e BOT_TOKEN="your_bot_token" \
   -e OWNER_ID="123456789" \
   -e MONGO_URI="your_mongo_uri" \
   -p 8080:8080 \
-  --name contact-relay-bot contact-relay-bot```
-
+  --name contact-relay-bot contact-relay-bot
+`
 
 ​3. Deploy on VPS / Local Machine
 <p align="left">
@@ -143,40 +149,57 @@ Variable Description
 </p>
 
 # Clone repository
-```git clone [https://github.com/MohammedDev-yt/Contact-Relay-Bot.git](https://github.com/MohammedDev-yt/Contact-Relay-Bot.git)
-cd Contact-Relay-Bot```
+
+`
+git clone [https://github.com/MohammedDev-yt/Contact-Relay-Bot.git](https://github.com/MohammedDev-yt/Contact-Relay-Bot.git)
+cd Contact-Relay-Bot
+`
 
 # Create virtual environment
-```python3 -m venv venv
-source venv/bin/activate```
+`
+python3 -m venv venv
+source venv/bin/activate
+`
 
 # Install requirements
-```pip install -r requirements.txt```
+
+`
+pip install -r requirements.txt
+`
 
 # Run bot
 ```python bot.py```
 
 </details>
-​[!NOTE]
+
+​[!NOTE] 
 ​⚠️ Never publish your actual BOT_TOKEN, API_HASH, or MONGO_URI on GitHub.
+
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ​[!CAUTION]
 ​Never share your BOT_TOKEN.
 ​Keep your API_HASH, OWNER_ID, and MONGO_URI private.
 ​Use environment variables for all sensitive credentials.
+
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ​[!WARNING]
 DON'T REMOVE MY CREDIT...
 ​Developer: @Mr_Mohammed_29
 ​Updates: @Aero_Unity
 ​Support: @Coders_Grp
+
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ​⭐ Fork and ⭐ this repo
 If you like this bot, give it a ⭐ on GitHub to support the project!
+
 <p align="center">
 <b>Made with ❤️ by Mohammed</b>
 ​📩 Contact: <a href="https://t.me/Mr_Mohammed_29">Mohammed</a>
 </p>
+
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:6A00FF,100:00C8FF&height=120&section=footer"/>
 </p>
