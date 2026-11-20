@@ -71,6 +71,8 @@ Contact-Relay-Bot/
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+</details>
+
 ​<details>
 ​<summary><b>Click Here To Expand Variables</b></summary>
 
@@ -172,12 +174,12 @@ cd Contact-Relay-Bot
 </details>
 
 
-> ​[!NOTE]
+> ​[!NOTE] 
 > * ⚠️ Never publish your actual BOT_TOKEN, API_HASH, or MONGO_URI on GitHub.
 
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-> ​[!CAUTION]
+> ​[!CAUTION] 
 > * Never share your BOT_TOKEN.
 ​Keep your API_HASH, OWNER_ID, and MONGO_URI private.
 
@@ -185,7 +187,7 @@ cd Contact-Relay-Bot
 
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-> ​[!WARNING]
+> ​[!WARNING] 
 > DON'T REMOVE MY CREDIT...
 > * ​Developer: @Mr_Mohammed_29
 > ​* Updates: @Aero_Unity
