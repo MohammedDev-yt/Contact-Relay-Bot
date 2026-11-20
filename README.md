@@ -71,8 +71,6 @@ Contact-Relay-Bot/
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-</details>
-
 ​<details>
 ​<summary><b>Click Here To Expand Variables</b></summary>
 
@@ -109,6 +107,7 @@ REPO_URL = https://t.me/Aero_Unity
 DEPLOY_STATUS_URL = https://t.me/Aero_Unity
 PORT = 8080
 ```
+</details>
 
 <summary>Deployment Guide</summary></b>
 
