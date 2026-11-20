@@ -58,9 +58,10 @@ broadcast       - ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢ�
 ```
 
 <details>
+
 <summary><h2> Click Here Development & Deployment</h2></summary>
 
-##​Welcome to the development documentation of Contact Relay Bot.
+# Welcome to the development documentation of Contact Relay Bot.
 
 ```
 Contact-Relay-Bot/
@@ -77,24 +78,25 @@ Contact-Relay-Bot/
 ​<summary><b>Click Here To Expand Variables</b></summary>
 
 
-Variable.       |    Description
-`API_ID` Telegram API ID from my.telegram.org
-`API_HASH` Telegram API Hash from my.telegram.org
-`BOT_TOKEN` Telegram Bot Token from @BotFather
-`OWNER_ID` Owner numeric Telegram User ID
-`MONGO_URI` MongoDB connection string
-`START_IMAGE_URL` Optional image URL shown on /start
-`BOT_NAME` Bot display name in About menu (Default: Aero Contact Relay)
-`BOT_VERSION` Bot version label in About menu (Default: v3.3)
-`UPDATES_CHANNEL_URL` Updates channel URL (Default: https://t.me/Aero_Unity)
-`REPO_URL` Repository / project link
-`DEPLOY_STATUS_URL` Deployment status link
-`PORT` Web server port (Default: 8080)
-```
+| Variable | Description |
+| :--- | :--- |
+| `API_ID` | Telegram API ID from my.telegram.org |
+| `API_HASH` | Telegram API Hash from my.telegram.org |
+| `BOT_TOKEN` | Telegram Bot Token from @BotFather |
+| `OWNER_ID` | Owner numeric Telegram User ID |
+| `MONGO_URI` | MongoDB connection string |
+| `START_IMAGE_URL` | Optional image URL shown on /start |
+| `BOT_NAME` | Bot display name in About menu (Default: Aero Contact Relay) |
+| `BOT_VERSION` | Bot version label in About menu (Default: v3.3) |
+| `UPDATES_CHANNEL_URL` | Updates channel URL (Default: https://t.me/Aero_Unity) |
+| `REPO_URL` | Repository / project link |
+| `DEPLOY_STATUS_URL` | Deployment status link |
+| `PORT` | Web server port (Default: 8080) |
+
 
 # Example Environment Configuration
 
-
+```
 `API_ID` =12345678
 `API_HASH` =your_api_hash_here
 `BOT_TOKEN` =your_bot_token_here
@@ -107,7 +109,7 @@ Variable.       |    Description
 `REPO_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
 `DEPLOY_STATUS_URL`=[https://t.me/Aero_Unity](https://t.me/Aero_Unity)
 `PORT`=8080
-
+```
 
 </details>
 ​🚀 <summary><b>DEPLOYMENT GUIDE</summary></b>
@@ -127,21 +129,18 @@ Variable.       |    Description
 # Build and run the container locally or on a server using Docker:
 
 # Build docker image
-`
-docker build -t contact-relay-bot
-`
+`docker build -t contact-relay-bot`
 
 # Run container with environment variables
-`
-docker run -d \
+
+`docker run -d \
   -e API_ID="12345678" \
   -e API_HASH="your_api_hash" \
   -e BOT_TOKEN="your_bot_token" \
   -e OWNER_ID="123456789" \
   -e MONGO_URI="your_mongo_uri" \
   -p 8080:8080 \
-  --name contact-relay-bot contact-relay-bot
-`
+  --name contact-relay-bot contact-relay-bot`
 
 ​3. Deploy on VPS / Local Machine
 <p align="left">
@@ -150,25 +149,20 @@ docker run -d \
 
 # Clone repository
 
-`
-git clone [https://github.com/MohammedDev-yt/Contact-Relay-Bot.git](https://github.com/MohammedDev-yt/Contact-Relay-Bot.git)
-cd Contact-Relay-Bot
-`
+`git clone [https://github.com/MohammedDev-yt/Contact-Relay-Bot.git](https://github.com/MohammedDev-yt/Contact-Relay-Bot.git)
+cd Contact-Relay-Bot`
 
 # Create virtual environment
-`
-python3 -m venv venv
-source venv/bin/activate
-`
+
+`python3 -m venv venv source venv/bin/activate`
 
 # Install requirements
 
-`
-pip install -r requirements.txt
-`
+`pip install -r requirements.txt`
 
 # Run bot
-```python bot.py```
+
+`python bot.py`
 
 </details>
 
