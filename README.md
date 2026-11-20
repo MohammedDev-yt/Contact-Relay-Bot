@@ -56,8 +56,8 @@ unban / unblock - ᴜɴʙʟᴏᴄᴋ ᴀ ᴜsᴇʀ ʙʏ ᴛᴇʟᴇɢʀᴀᴍ �
 stats           - ᴄʜᴇᴄᴋ ᴛᴏᴛᴀʟ ᴜsᴇʀs, ʙʟᴏᴄᴋᴇᴅ & ᴍᴀᴘᴘᴇᴅ ᴍsɢs (ᴀᴅᴍɪɴ)
 broadcast       - ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs (ᴀᴅᴍɪɴ)
 ```
-<details>
 
+<details>
 <summary><h2> Click Here Development & Deployment</h2></summary>
 
 ```
@@ -126,12 +126,14 @@ PORT = 8080
 
 ```
 # Build docker image
+
 docker build -t contact-relay-bot`
 ```
 
 ```
- #Run container with environment variables
- docker run -d \
+ # Run container with environment variables
+ 
+docker run -d \
   -e API_ID="12345678" \
   -e API_HASH="your_api_hash" \
   -e BOT_TOKEN="your_bot_token" \
@@ -154,20 +156,19 @@ cd Contact-Relay-Bot
 ```
 
 ```
- #Create virtual environment
+ # Create virtual environment
  python3 -m venv venv source venv/bin/activate
 ```
 
 ```
- #Install requirements
+ # Install requirements
  pip install -r requirements.txt
 ```
 
 ```
- #Run bot
+ # Run bot
  python bot.py
 ```
-
 </details>
 
 
@@ -176,7 +177,8 @@ cd Contact-Relay-Bot
 
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-> ​[!CAUTION]> * Never share your BOT_TOKEN.
+> ​[!CAUTION]
+> * Never share your BOT_TOKEN.
 ​Keep your API_HASH, OWNER_ID, and MONGO_URI private.
 
 >​ * Use environment variables for all sensitive credentials.
