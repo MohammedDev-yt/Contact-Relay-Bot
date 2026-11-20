@@ -109,6 +109,7 @@ PORT = 8080
 ```
 </details>
 
+<details>
 <summary>Deployment Guide</summary></b>
 
 ​1. Deploy on Render
