@@ -127,8 +127,9 @@ PORT = 8080
 ```
 # Build docker image
 docker build -t contact-relay-bot`
+```
 
-
+```
  #Run container with environment variables
  docker run -d \
   -e API_ID="12345678" \
@@ -138,6 +139,7 @@ docker build -t contact-relay-bot`
   -e MONGO_URI="your_mongo_uri" \
   -p 8080:8080 \
   --name contact-relay-bot contact-relay-bot
+```
 
 ​3. Deploy on VPS / Local Machine
 
@@ -145,18 +147,27 @@ docker build -t contact-relay-bot`
 <img src="https://img.shields.io/badge/🚀%20Deploy%20on%20VPS/Local-00599C?style=for-the-badge&logo=linux&logoColor=white">
 </p>
 
+```
 # Clone repository
 git clone [https://github.com/MohammedDev-yt/Contact-Relay-Bot.git](https://github.com/MohammedDev-yt/Contact-Relay-Bot.git)
 cd Contact-Relay-Bot
+```
 
+```
  #Create virtual environment
  python3 -m venv venv source venv/bin/activate
+```
 
+```
  #Install requirements
  pip install -r requirements.txt
+```
 
+```
  #Run bot
  python bot.py
+```
+
 </details>
 
 
@@ -172,7 +183,8 @@ cd Contact-Relay-Bot
 
 ​<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-> ​[!WARNING]> DON'T REMOVE MY CREDIT...
+> ​[!WARNING]
+> DON'T REMOVE MY CREDIT...
 > * ​Developer: @Mr_Mohammed_29
 > ​* Updates: @Aero_Unity
 > ​* Support: @Coders_Grp
